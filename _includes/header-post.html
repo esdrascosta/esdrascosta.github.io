@@ -1,5 +1,6 @@
-<header class="header-post" role="banner">
-    <div class="content">
+<header class="header-post {% if page.image %}teaserimage{% endif %}" 
+        role="banner" style="background-image: url({% if page.image %}{{ page.image }}{% endif %});">
+      <div class="content">
         {% if page.date %}
             <time itemprop="datePublished" datetime="{{ page.date }}" class="date">{{ page.date | date_to_string }}</time>
         {% endif %}

@@ -1475,3 +1475,14 @@ footer p, footer a {
 footer a:hover {
   color: #900
 }
+
+.teaserimage {
+    background-size: cover;
+    background-position: center center;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    z-index: 1;
+
+}
