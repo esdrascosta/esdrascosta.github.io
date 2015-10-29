@@ -5,13 +5,13 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 
 # User settings
 username: Esdras Costa
-user_description: Developer at Lorem Ipsum Dolor
-user_title: Developer
-email: servoesdrasn@gmail.com
+user_description: Desenvolvedor de Software
+user_title: Desenvolvedor de Software
+email: servoesdras@gmail.com
 #twitter_username: lorem_ipsum
 github_username:  esdrascosta
 #gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+disqus_username: esdrascosta
 
 # Build settings
 markdown: kramdown
@@ -35,7 +35,7 @@ links:
     url: /series
   - title: Tags
     url: /tags
-  - title: About Me
+  - title: Sobre mim
     url: /about
 
 # exclude my node related stuff
